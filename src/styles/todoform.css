@@ -1,0 +1,25 @@
+.todoForm {
+display: flex;
+justify-content: center;
+}
+
+input#description {
+  background: transparent;
+  border: 1px solid rgba(0,255,252,1);
+  border-radius: 3px;
+  padding: .5rem;
+  width: 80%;
+  color: rgba(0,255,252,1);
+  font-size: 14px;
+}
+.buttons{
+  display: flex;
+}
+.buttons>button {
+  padding: .6rem;
+  background-image: linear-gradient(to right, rgb(26, 158, 175) 0%, rgb(0, 225, 255) 100%);
+  color: white;
+  margin-left: .5rem;
+  width: 120px;
+  border-radius: 3px;
+}

@@ -1,0 +1,45 @@
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin>h1{
+  margin-top: 20%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+input#name, input#email, input#password{
+  width: 60%;
+  margin: .5rem;
+  padding: .5rem;
+  border: 1px solid rgba(0,255,252,1);
+  border-radius: 3px;
+  color: rgba(0,255,252,1);
+  font-size: 14px;
+  background: transparent;
+}
+
+input#send{
+  width: 150px;
+  margin-top: .5rem;
+  border-radius: 3px;
+  padding: .5rem;
+  color: white;
+  background: rgba(5,255,85,0);
+  border: solid 1px rgba(0,255,252,1);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input#send:hover{
+  background: rgba(0,255,252,.6);;
+}

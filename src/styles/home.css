@@ -1,0 +1,96 @@
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15%;
+}
+
+.logotipo{
+  width: 300px;
+  height: 100px;
+  background-image: url('../assets/xgb-logotipo.png');
+  background-size: 225px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input#user, input#pass{
+  background: transparent;
+  border: 1px solid rgba(0,255,252,1);;
+  border-radius: 3px;
+  padding: .5rem;
+  width: 40%;
+  color: rgba(0,255,252,1);;
+  font-size: 14px;
+  margin-top: .5rem;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input#send{
+  width: 150px;
+  margin-top: .5rem;
+  border-radius: 3px;
+  padding: .5rem;
+  color: white;
+  background: rgba(5,255,85,0);
+  border: solid 1px rgba(0,255,252,1);;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input#send:hover{
+  background: rgba(5,255,85,.6);
+}
+.subtitle-home{
+color: white;
+text-align: right;
+padding-top: 4.4rem;
+padding-right: 2.2rem;
+}
+
+.options>p{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.options>p:first-child{
+  padding: 5rem 0 .5rem 0;
+}
+
+a{
+  cursor: pointer !important;
+}
+
+@media screen and (min-width: 1300px) {
+  .home{
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  input#user, input#pass{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  input#user, input#pass{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  input#user, input#pass{
+    width: 60%;
+  }
+}
+
